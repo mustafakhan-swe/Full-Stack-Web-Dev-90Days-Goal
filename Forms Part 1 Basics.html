@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms In HTML</title>
+</head>
+<body>
+    <h1><center>Forms In HTML</center></h1>
+
+        <h2>Form 1</h2>
+    <form>
+        <fieldset style="border: 1; border-color: seagreen; width: 5;">
+            <legend>HTML Demo</legend>
+        <h3>TextField</h3>
+        <label for="textfield1">Enter:</label>
+        <input type="text" name="textfield1" id="textfield1">
+        <br/><br/>
+
+        <h3>Button:</h3>
+        <label for="button1">Button: </label>
+        <input type="submit" name="button1" id="button1" value="Subscribe">
+        <br/><br/>
+
+        <h3>Radio Button:</h3>
+        <p>Select your favorite food:</p>
+        <label for="burger">Burger</label>
+        <input type="radio" name="Food" id="burger" value="Burger">
+        <label for="pizza">Pizza</label>
+        <input type="radio" name="Food" id="pizza" value="Pizza">
+        <label for="shawarma">Shawarma</label>
+        <input type="radio" name="Food" id="shawarma" value="Shawarma">
+        <br/><br/>
+
+        <h3>CheckBox:</h3>
+        <p>Select your favorite Hobby:</p>
+        <label for="cricket">Cricket:</label>
+        <input type="checkbox" name="Hobby" id="cricket" value="Cricket">
+        <label for="football">FooBall</label>
+        <input type="checkbox" name="Hobby" id="football" value="FootBall">
+        <label for="hockey">Hockey</label>
+        <input type="checkbox" name="Hobby" id="hockey" value="Hockey">
+        <br/><br/>
+        
+        <h3>File Select:</h3>
+        <label for="fileselector1">Upload Document:</label>
+        <input type="file" class="FileSelect1" id="fileselector1">
+        <br/><br/>
+
+        <h3>Image</h3>
+        <label for="image">Arrow Image:</label><br/><br/>
+        <input type="image" class="Image" id="image" src="arrow.png" width="150px" height="180px">
+        <br/><br/>
+
+        <h3>Date Picker</h3>
+        <label for="datepicker2">Enter Date:</label>
+        <input type="date" class="DatePicker2" id="datepicker2">
+        <br/><br/>
+        
+        <h3>TextArea</h3>
+        <label for="textarea2">Details:</label>
+        <br/><br/>
+        <textarea name="TextArea2" id="textarea2" rows="10" cols="30" placeholder="Enter text here..."></textarea>
+    </fieldset>
+    </form>
+
+    <h2>Form 2</h2>
+    <form>
+        <fieldset style="border: 1; border-color: rgb(0, 25, 252); width: 5>
+            <legend>HTML Form Dummy</legend>
+        <label for="datepicker">Enter Date:</label>
+        <input type="date" id="datepicker">
+        <br/><br/>
+        <label for="selector1">Select Dish:</label>
+        <br/>
+        <select name="Dishes" id="selector1" multiple size="2">
+            <option value="Maggi">Maggi</option>
+            <option value="Channa">Channa</option>
+            <option value="Biryani">Biryani</option>
+        </select>
+        <br/><br/>
+        <p>Select your favorite food:</p>
+        <label for="burger">Burger</label>
+        <input type="radio" name="Food" id="burger" value="Burger">
+        <label for="pizza">Pizza</label>
+        <input type="radio" name="Food" id="pizza" value="Pizza">
+        <label for="shawarma">Shawarma</label>
+        <input type="radio" name="Food" id="shawarma" value="Shawarma">
+        <br/><br/>
+
+        <h3>CheckBox:</h3>
+        <p>Select your favorite Hobby:</p>
+        <label for="cricket">Cricket:</label>
+        <input type="checkbox" name="Hobby" id="cricket" value="Cricket">
+        <label for="football">FootBall</label>
+        <input type="checkbox" name="Hobby" id="football" value="FootBall">
+        <label for="hockey">Hockey</label>
+        <input type="checkbox" name="Hobby" id="hockey" value="Hockey">
+        <br/><br/>
+        <button>Submit Details</button>
+        <br>/<br/>
+
+        <label for="textarea1">Any Message:</label>
+        <br><br>
+        <textarea name="TextArea1" id="textarea1" cols="30" rows="10" placeholder="Entere Message Here:"></textarea>
+        <br/><br/>
+        </fieldset>
+    </form>
+
+    <h2>Form 3</h2>
+    <form>
+        <fieldset style="border: 1; border-color: rgb(0, 195, 255); width: 5>
+        <label for="email">Username:</label>
+        <input type="text" id="email" placeholder="example@gmail.com">
+        <br/><br/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="enter your password...">
+        <br/><br/>
+        <label for="textarea3">Any Message:</label>
+        <br><br>
+        <textarea name="TextArea3" id="textarea3" cols="30" rows="10" placeholder="Entere Message Here:"></textarea>
+        <br/><br/>
+        <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
