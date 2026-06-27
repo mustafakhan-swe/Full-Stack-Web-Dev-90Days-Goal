@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 3 - Complex Form</title>
+</head>
+<body>
+    <h1><center>Complex Forms in HTML Part 3</center></h1>
+    <form>
+        <fieldset style="border: 1; border-color: violet;">
+        <legend>Personal Information</legend>
+        <br/>
 
+        <label for="name">Name:</label>
+        <input type="text" class="Name" id="name" placeholder="Enter your name here...">
+        <br/><br/>
+
+        <label for="email">Email:</label>
+        <input type="text" class="Email" id="email" placeholder="example@gmail.com">
+        <br/><br/>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" class="Phone" id="phone" placeholder="+08450924747">
+        <br/><br/>
+
+        <label for="birth">Date of Birth:</label>
+        <input type="date" class="Birth" id="birth">
+        <br/><br/>
+
+        <span>Gender:</span>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <br/><br/>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="pakistan">Pakistan</option>
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="germany">Germany</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select>
+        </fieldset>
+        <br/>
+
+        <fieldset style="border: 1; border-color: greenyellow;">
+            <legend>Address Street</legend>
+            <br/>
+
+        <label for="city">City:</label>
+        <input type="text" class="City" id="city" placeholder="Enter your city...">
+        <br/><br/>
+
+        <label for="state">State:</label>
+        <input type="text" class="State" id="state" placeholder="Enter your state...">
+        <br/><br/>
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" class="Zipcode" id="zipcode" placeholder="Zipcode......">
+        <br/><br/>
+        </fieldset>
+        <br/>
+
+        <fieldset style="border: 1; border-color: blue;">
+            <legend>Other Information</legend>
+            <br/>
+
+            <label for="comments">Comments:</label>
+            <br/><br/>
+            <textarea name="Comments" id="comments" rows="5" cols="30" placeholder="Write message..."></textarea>
+        </fieldset>
+        <br/>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
