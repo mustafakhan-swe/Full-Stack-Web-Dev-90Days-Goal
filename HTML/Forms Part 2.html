@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Forms in HTML Part 2 Advance</center></h1>
 
+    <h2>Form 1</h2>
+    <form>
+        <fieldset style="border: 1; border-color: rgb(23, 250, 2);">
+        <legend>Event Registration</legend>
+        
+        <label for="name">Name:</label><br/>
+        <input type="text" class="Name" id="name" placeholder="Enter your name here...">
+        <br/><br/>
+
+        <label for="email">Email:</label><br/>
+        <input type="text" class="Email" id="email" placeholder="example@gmail.com">
+        <br/><br/>
+
+        <label for="phone">Phone:</label><br/>
+        <input type="tel" class="Phone" id="phone" placeholder="+08450924747">
+        <br/><br/>
+
+        <label for="occupation">Occupation:</label><br/>
+        <select name="Occupation" id="occupation">
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+        <br/><br/>
+
+        <fieldset style="border: 1; border-color: rgb(113, 223, 128);">
+        <legend>Topics of Interest:</legend>
+
+        <input type="checkbox" class="Interest" id="html">
+        <label for="html">HTML</label>
+        <br/><br/>
+
+        <input type="checkbox" class="Interest" id="css">
+        <label for="css">CSS</label>
+        <br/><br/>
+
+        <input type="checkbox" class="Interest" id="javascript">
+        <label for="javascript">javascript</label>
+        <br/><br/>
+        </fieldset>
+        <br/><br/>
+
+        <label for="comments">Comments:</label><br/>
+        <textarea name="Comments" id="comments" rows="5" cols="30" placeholder="Write your comments..." style="border-color: rgb(151, 151, 219);"></textarea>
+        <br/><br/>
+
+        <button>Register</button>
+        </fieldset>
+    </form>
+
+    <h2>Form 2</h2>
+    <form>
+        <fieldset style="border: 1; border-color: yellowgreen;">
+        
+        <legend>Job Application</legend>
+        <label for="name2">Name:</label><br/>
+        <input type="text" class="Name2" id="name2" placeholder="Enter your name here...">
+        <br/><br/>
+
+        <label for="email2">Email:</label><br/>
+        <input type="text" class="Email2" id="email2" placeholder="example@gmail.com">
+        <br/><br/>
+
+        <label for="phone2">Phone:</label><br/>
+        <input type="tel" class="Phone2" id="phone2" placeholder="+08450924747">
+        <br/><br/>
+
+        <label for="resume">Resume:</label>
+        <input type="file" name="FileSelect2" id="fileselector2">
+        <br/><br/>
+
+        <label for="experience">Experience (Years): </label><br/>
+        <input type="number" name="Experience" id="experience" min="0" max="50">
+        <br/><br/>
+
+        <fieldset style="border: 1; border-color: aquamarine;">
+            <legend>Skills</legend>
+            <input type="checkbox" class="Interest" id="html">
+        <label for="html">HTML</label>
+        <br/><br/>
+
+        <input type="checkbox" class="Interest" id="css">
+        <label for="css">CSS</label>
+        <br/><br/>
+
+        <input type="checkbox" class="Interest" id="javascript">
+        <label for="javascript">javascript</label>
+        </fieldset>
+        <br/><br/>
+
+        <label for="heducation">HigherEducation:</label><br/>
+        <select name="Heducation" id="heducation">
+            <option value="Matric">Matric</option>
+            <option value="Inter">Intermediate</option>
+            <option value="Bs Level">BS Level</option>
+            <option value="MS Level">MS Level</option>
+            <option value="PHD Level">PHD Level</option>
+        </select>
+        <br/><br/>
+
+        <p>Availibility:</p>
+
+        <label for="ftime">Full-Time</label>
+        <input type="radio" id="ftime" name="avail">
+        <br/><br/>
+
+        <label for="ptime">Part-Time</label>
+        <input type="radio" id="ptime" name="avail">
+        <br/><br/>
+
+        <label for="acomments:">Additional Comments:</label>
+        <textarea name="acomments" id="acomments" rows="5" cols="30"></textarea>
+        <br/><br/>
+
+        <button>Submit Application</button>
+        </fieldset>
+    </form>
+</body>
+</html>
