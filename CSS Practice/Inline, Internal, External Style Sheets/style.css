@@ -1,1 +1,21 @@
-
+/* External CSS */
+h1{
+    font-size: smaller;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: rgb(0, 245, 220);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#article1{
+    color: #f50000;
+}
+.section{
+    color: #2600ff;
+}
+p,article{
+    background-color: antiquewhite;
+    width: 500px;
+}
+p.section{
+    width: 200px;
+}
