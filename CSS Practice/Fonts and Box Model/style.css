@@ -1,1 +1,82 @@
+/* Universal Selector
+*{
+    padding: 0px;
+    margin: 0px;
+} */
 
+span{
+    border-style: solid;
+    border: solid blue 2px;
+    border-radius: 10px;
+    width: 120;
+    height: 160;
+    padding: 12px;
+    margin: 10px;
+}
+div{
+    display: inline-block;
+    border-style: solid;
+    border: solid rgb(0, 255, 64) 2px;
+    border-radius: 10px;
+    width: 120;
+    height: 160;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 10px;
+}
+*{
+        box-sizing: border-box;
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background-color: skyblue;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 12px;
+    padding: 6px 5px;
+    margin: 6px;
+    width: 350px;
+}
+p{
+    font-family: "Yuyu Short", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(87, 214, 37);
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    border: solid brown 2px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 6px;
+    width: 350px;
+    box-sizing: border-box;
+}
+.fpara{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    color: rgb(255, 0, 0);
+    background-color: wheat;
+}
+.spara{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(238, 255, 0);
+    background-color: rgb(0, 238, 255);
+    padding: 10px 20px 30px 40px;
+}
+.tpara{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-weight: 300;
+    color: rgb(25, 0, 255);
+    background-color: yellowgreen;
+}
