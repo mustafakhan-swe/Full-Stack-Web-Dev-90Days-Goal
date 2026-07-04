@@ -1,1 +1,42 @@
-
+.container{
+    margin: 10px;
+    border: solid rgb(26, 236, 89) 1px;
+    padding: 2px 2px 10px 10px;
+}
+.image3{
+    position: sticky;
+    top: 50px;
+}
+.image4{
+    position: sticky;
+}
+.container{
+    height: 100px;
+    position: relative;
+}
+h2{
+    display: inline;
+    color: #0447ff;
+    background-color: rgb(0, 255, 34);
+    font-size: 1rem;
+    ;
+}
+.child{
+    border: red solid 1px;
+    background-color: rgb(21, 236, 14);
+    width: 20%;
+}
+.container2{
+    width: 100em;
+    border: solid black 1px;
+    background-color: aqua;
+    position: relative;
+}
+#img1{
+    float: left;
+    height: 80px;
+}
+#img2{
+    float: right;
+    height: 80px;
+}
