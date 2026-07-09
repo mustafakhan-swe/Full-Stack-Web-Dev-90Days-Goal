@@ -29,8 +29,7 @@
 .box2:hover{
     border-radius: 200px;
     background-color: #00f7ff;
-    transform: rotate(360deg);
-    transform: scale(2);
+    transform: rotate(360deg) scale(2);
     /* transform: skew(360deg); */
     /* transform: translate(100px, 100px); */
 }
